@@ -123,10 +123,10 @@ const Dashboard = () => {
       <div className="flex-1 p-6 bg-gray-50">
         <div className="max-w-4xl mx-auto">
           <div className="mb-6">
-            <h1 className="text-2xl font-bold text-gray-900 mb-2">
+            <h1 className="text-2xl font-bold text-gray-100 mb-2 heading-graffiti">
               ¡Hola, {user?.username}!
             </h1>
-            <p className="text-gray-600">
+            <p className="text-gray-400">
               {selectedGate ? `Verificando con ${selectedGate}` : 'Selecciona un gate para comenzar'}
             </p>
           </div>

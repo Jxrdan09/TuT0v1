@@ -38,7 +38,7 @@ const Layout = ({ children }) => {
             <div className="flex">
               <div className="flex-shrink-0 flex items-center">
                 <Code className="h-8 w-8 text-emerald-400 drop-shadow-[0_0_8px_rgba(16,185,129,0.7)]" />
-                <span className="ml-2 text-xl font-bold text-emerald-300 tracking-wider">
+                <span className="ml-2 text-xl font-bold text-emerald-300 tracking-wider brand-graffiti">
                   Underground
                 </span>
               </div>
