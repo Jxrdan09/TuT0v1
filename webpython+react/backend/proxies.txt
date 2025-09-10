@@ -1,0 +1,14 @@
+# Archivo de Proxies
+# Formato: ip:port o ip:port:usuario:contraseña
+# Un proxy por línea
+# Las líneas que empiecen con # son comentarios
+
+# Proxy rotativo de proxy-cheap.com
+proxy-us.proxy-cheap.com:5959:pc1gRJL5rD-res-any:PC_0rJ3qKNZ5uvWHZudy
+
+# Ejemplos adicionales:
+# 192.168.1.1:8080
+# 192.168.1.2:8080:usuario:contraseña
+# 10.0.0.1:3128
+
+# Agrega más proxies aquí:

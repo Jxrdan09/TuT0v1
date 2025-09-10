@@ -1,0 +1,4 @@
+nohup: ignoring input
+Python-dotenv could not parse statement starting at line 14
+INFO:     Will watch for changes in these directories: ['/root/webpython+react/backend']
+ERROR:    [Errno 98] Address already in use
