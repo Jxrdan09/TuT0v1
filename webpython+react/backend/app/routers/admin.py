@@ -70,7 +70,9 @@ async def create_key(
     if existing_key:
         raise HTTPException(status_code=400, detail="La key ya existe")
     
-    db_key = UserKey(key=key_data.key)
+    # Permitir duración personalizada en días
+    duration_days = getattr(key_data, 'duration_days', 30) or 30
+    db_key = UserKey(key=key_data.key, duration_days=duration_days)
     db.add(db_key)
     db.commit()
     db.refresh(db_key)
@@ -101,6 +103,53 @@ async def toggle_key_status(
     db.commit()
     
     return {"message": f"Key {'activada' if key.is_active else 'desactivada'} exitosamente"}
+
+@router.post("/keys/{key_id}/renew", response_model=UserKeySchema)
+async def renew_subscription_with_key(
+    key_id: int,
+    current_user: User = Depends(get_current_admin_user),
+    db: Session = Depends(get_db)
+):
+    """Renovar suscripción de un usuario usando una key asignada (suma días)."""
+    key = db.query(UserKey).filter(UserKey.id == key_id).first()
+    if not key:
+        raise HTTPException(status_code=404, detail="Key no encontrada")
+
+    if not key.user_id:
+        raise HTTPException(status_code=400, detail="La key no está asignada a ningún usuario")
+
+    user = db.query(User).filter(User.id == key.user_id).first()
+    if not user:
+        raise HTTPException(status_code=404, detail="Usuario no encontrado para esta key")
+
+    from datetime import datetime, timedelta
+    now = datetime.utcnow()
+    base_date = user.subscription_expires_at if user.subscription_expires_at and user.subscription_expires_at > now else now
+    user.subscription_expires_at = base_date + timedelta(days=key.duration_days or 30)
+    key.expires_at = user.subscription_expires_at
+    db.commit()
+    db.refresh(key)
+    return key
+
+@router.post("/users/{user_id}/extend", response_model=UserSchema)
+async def extend_user_subscription(
+    user_id: int,
+    days: int = 30,
+    current_user: User = Depends(get_current_admin_user),
+    db: Session = Depends(get_db)
+):
+    """Extender suscripción de un usuario directamente por N días."""
+    user = db.query(User).filter(User.id == user_id).first()
+    if not user:
+        raise HTTPException(status_code=404, detail="Usuario no encontrado")
+
+    from datetime import datetime, timedelta
+    now = datetime.utcnow()
+    base_date = user.subscription_expires_at if user.subscription_expires_at and user.subscription_expires_at > now else now
+    user.subscription_expires_at = base_date + timedelta(days=max(1, days))
+    db.commit()
+    db.refresh(user)
+    return user
 
 @router.delete("/keys/{key_id}")
 async def delete_key(

@@ -20,6 +20,7 @@ class User(UserBase):
     id: int
     is_active: bool
     is_admin: bool
+    subscription_expires_at: Optional[datetime] = None
     created_at: datetime
     
     class Config:
@@ -36,6 +37,7 @@ class TokenData(BaseModel):
 # Key schemas
 class UserKeyBase(BaseModel):
     key: str
+    duration_days: int = 30
 
 class UserKeyCreate(UserKeyBase):
     pass
@@ -46,6 +48,7 @@ class UserKey(UserKeyBase):
     is_active: bool
     created_at: datetime
     expires_at: Optional[datetime]
+    activated_at: Optional[datetime]
     
     class Config:
         from_attributes = True

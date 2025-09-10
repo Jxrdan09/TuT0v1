@@ -58,11 +58,20 @@ async def register(user_data: UserCreate, db: Session = Depends(get_db)):
     )
     
     db.add(db_user)
-    
-    # Desactivar la key usada
+    db.commit()
+    db.refresh(db_user)
+
+    # Activar suscripción según duración de la key
+    from datetime import datetime, timedelta
+    subscription_days = valid_key.duration_days if getattr(valid_key, 'duration_days', None) is not None else 30
+    db_user.subscription_expires_at = datetime.utcnow() + timedelta(days=subscription_days)
+
+    # Marcar uso de la key sin eliminar: asignar al usuario, marcar como inactiva y registrar activación
     valid_key.is_active = False
     valid_key.user_id = db_user.id
-    
+    valid_key.activated_at = datetime.utcnow()
+    valid_key.expires_at = db_user.subscription_expires_at
+
     db.commit()
     db.refresh(db_user)
     

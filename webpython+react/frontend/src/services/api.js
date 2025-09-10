@@ -32,6 +32,11 @@ api.interceptors.response.use(
       localStorage.removeItem('token');
       window.location.href = '/login';
     }
+    if (error.response?.status === 402) {
+      // Suscripción expirada
+      try { alert('Tu suscripción ha expirado. Contacta al administrador o renueva.'); } catch (e) {}
+      return Promise.reject(error);
+    }
     return Promise.reject(error);
   }
 );
@@ -66,6 +71,8 @@ export const adminAPI = {
   createKey: (keyData) => api.post('/admin/keys', keyData),
   toggleKeyStatus: (id) => api.put(`/admin/keys/${id}/toggle-status`),
   deleteKey: (id) => api.delete(`/admin/keys/${id}`),
+  renewKey: (id) => api.post(`/admin/keys/${id}/renew`),
+  extendUser: (userId, days = 30) => api.post(`/admin/users/${userId}/extend?days=${days}`),
   
   getGateways: () => api.get('/admin/gateways'),
   createGateway: (gatewayData) => api.post('/admin/gateways', gatewayData),

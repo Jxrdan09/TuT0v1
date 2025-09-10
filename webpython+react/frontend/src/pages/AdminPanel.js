@@ -21,6 +21,8 @@ const AdminPanel = () => {
   const [gateways, setGateways] = useState([]);
   const [loading, setLoading] = useState(true);
   const [newKey, setNewKey] = useState('');
+  const [newKeyDays, setNewKeyDays] = useState(30);
+  const [extendDays, setExtendDays] = useState(30);
 
   useEffect(() => {
     fetchData();
@@ -73,9 +75,10 @@ const AdminPanel = () => {
     }
 
     try {
-      await adminAPI.createKey({ key: newKey });
+      await adminAPI.createKey({ key: newKey, duration_days: Number(newKeyDays) || 30 });
       toast.success('Key creada exitosamente');
       setNewKey('');
+      setNewKeyDays(30);
       fetchData();
     } catch (error) {
       toast.error('Error al crear la key');
@@ -103,6 +106,26 @@ const AdminPanel = () => {
       fetchData();
     } catch (error) {
       toast.error('Error al eliminar la key');
+    }
+  };
+
+  const renewKey = async (keyId) => {
+    try {
+      await adminAPI.renewKey(keyId);
+      toast.success('Suscripción renovada con la key');
+      fetchData();
+    } catch (error) {
+      toast.error('Error al renovar con la key');
+    }
+  };
+
+  const extendUser = async (userId) => {
+    try {
+      await adminAPI.extendUser(userId, Number(extendDays) || 30);
+      toast.success('Suscripción extendida');
+      fetchData();
+    } catch (error) {
+      toast.error('Error al extender suscripción');
     }
   };
 
@@ -202,6 +225,11 @@ const AdminPanel = () => {
       {activeTab === 'users' && (
         <div className="card">
           <h2 className="text-lg font-semibold text-gray-900 mb-4">Usuarios</h2>
+          <div className="flex items-center space-x-3 mb-4">
+            <label className="text-sm text-gray-600">Extender días:</label>
+            <input type="number" min="1" value={extendDays} onChange={(e)=>setExtendDays(e.target.value)} className="input-field w-24" />
+            <span className="text-xs text-gray-500">Aplicar en botón de cada usuario</span>
+          </div>
           <div className="overflow-x-auto">
             <table className="min-w-full divide-y divide-gray-200">
               <thead className="bg-gray-50">
@@ -220,6 +248,9 @@ const AdminPanel = () => {
                   </th>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                     Admin
+                  </th>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    Expira
                   </th>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                     Acciones
@@ -268,12 +299,21 @@ const AdminPanel = () => {
                         </span>
                       )}
                     </td>
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                      {user.subscription_expires_at ? new Date(user.subscription_expires_at).toLocaleString() : '—'}
+                    </td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm font-medium">
                       <button
                         onClick={() => toggleUserAdmin(user.id)}
                         className="text-primary-600 hover:text-primary-900"
                       >
                         {user.is_admin ? 'Quitar Admin' : 'Hacer Admin'}
+                      </button>
+                      <button
+                        onClick={() => extendUser(user.id)}
+                        className="ml-3 text-green-600 hover:text-green-900"
+                      >
+                        Extender
                       </button>
                     </td>
                   </tr>
@@ -295,6 +335,14 @@ const AdminPanel = () => {
                 onChange={(e) => setNewKey(e.target.value)}
                 placeholder="Nueva key"
                 className="input-field"
+              />
+              <input
+                type="number"
+                value={newKeyDays}
+                min={1}
+                onChange={(e) => setNewKeyDays(e.target.value)}
+                placeholder="Días"
+                className="input-field w-24"
               />
               <button onClick={createKey} className="btn-primary">
                 <Plus className="h-4 w-4 mr-1" />
@@ -320,9 +368,17 @@ const AdminPanel = () => {
                   }`}>
                     {key.is_active ? 'Activa' : 'Inactiva'}
                   </span>
-                  {key.user_id && (
+                  <span className="text-xs text-gray-500">
+                    {key.duration_days} días
+                  </span>
+                  {key.expires_at && (
                     <span className="text-xs text-gray-500">
-                      Usada por usuario #{key.user_id}
+                      expira: {new Date(key.expires_at).toLocaleString()}
+                    </span>
+                  )}
+                  {key.activated_at && (
+                    <span className="text-xs text-gray-500">
+                      activada: {new Date(key.activated_at).toLocaleString()}
                     </span>
                   )}
                 </div>
@@ -334,6 +390,14 @@ const AdminPanel = () => {
                   >
                     {key.is_active ? 'Desactivar' : 'Activar'}
                   </button>
+                  {key.user_id && (
+                    <button
+                      onClick={() => renewKey(key.id)}
+                      className="text-sm text-green-600 hover:text-green-900"
+                    >
+                      Renovar
+                    </button>
+                  )}
                   <button
                     onClick={() => deleteKey(key.id)}
                     className="text-sm text-red-600 hover:text-red-900"

@@ -8,6 +8,7 @@ from datetime import datetime
 from ..database import get_db
 from ..auth import get_current_user
 from ..schemas import User
+from datetime import datetime
 
 router = APIRouter(prefix="/api/gates", tags=["gates"])
 
@@ -194,6 +195,9 @@ GATES_DATA = {
 @router.get("/")
 async def get_all_gates(current_user: User = Depends(get_current_user)):
     """Obtener todos los gates disponibles"""
+    # Verificar suscripción
+    if getattr(current_user, 'subscription_expires_at', None) and current_user.subscription_expires_at < datetime.utcnow():
+        raise HTTPException(status_code=402, detail="Suscripción expirada")
     return {
         "gates": GATES_DATA,
         "global_stats": {
@@ -205,6 +209,8 @@ async def get_all_gates(current_user: User = Depends(get_current_user)):
 @router.get("/{gate_id}")
 async def get_gate(gate_id: str, current_user: User = Depends(get_current_user)):
     """Obtener información de un gate específico"""
+    if getattr(current_user, 'subscription_expires_at', None) and current_user.subscription_expires_at < datetime.utcnow():
+        raise HTTPException(status_code=402, detail="Suscripción expirada")
     if gate_id not in GATES_DATA:
         raise HTTPException(status_code=404, detail="Gate no encontrado")
     
@@ -218,6 +224,8 @@ async def check_gate(
     current_user: User = Depends(get_current_user)
 ):
     """Verificar datos usando un gate específico"""
+    if getattr(current_user, 'subscription_expires_at', None) and current_user.subscription_expires_at < datetime.utcnow():
+        raise HTTPException(status_code=402, detail="Suscripción expirada")
     if gate_id not in GATES_DATA:
         raise HTTPException(status_code=404, detail="Gate no encontrado")
     

@@ -16,7 +16,7 @@ const Dashboard = () => {
   const [gateStats, setGateStats] = useState(null);
   const [loading, setLoading] = useState(true);
   const [selectedGate, setSelectedGate] = useState(null);
-  const [inputData, setInputData] = useState({});
+  const [singleInput, setSingleInput] = useState('');
   const [results, setResults] = useState(null);
   const [isChecking, setIsChecking] = useState(false);
 
@@ -28,63 +28,10 @@ const Dashboard = () => {
   const handleGateClick = async (gateName) => {
     setSelectedGate(gateName);
     setResults(null);
-    
-    // Generar campos dinámicos según el gate
-    const gateFields = generateGateFields(gateName);
-    const initialData = {};
-    gateFields.forEach(field => {
-      initialData[field.name] = '';
-    });
-    setInputData(initialData);
+    setSingleInput('');
   };
 
-  // Generar campos dinámicos según el gate
-  const generateGateFields = (gateName) => {
-    const fieldConfigs = {
-      'AMAZON': [
-        { name: 'card_number', label: 'Número de Tarjeta', type: 'text', placeholder: '4532123456789012' },
-        { name: 'exp_month', label: 'Mes de Expiración', type: 'text', placeholder: '12' },
-        { name: 'exp_year', label: 'Año de Expiración', type: 'text', placeholder: '25' },
-        { name: 'cvv', label: 'CVV', type: 'text', placeholder: '123' },
-        { name: 'amount', label: 'Monto', type: 'text', placeholder: '10.00' }
-      ],
-      'IRIS': [
-        { name: 'username', label: 'Usuario', type: 'text', placeholder: 'usuario@ejemplo.com' },
-        { name: 'password', label: 'Contraseña', type: 'password', placeholder: '********' },
-        { name: 'amount', label: 'Monto', type: 'text', placeholder: '50.00' }
-      ],
-      'KAIROS': [
-        { name: 'email', label: 'Email', type: 'email', placeholder: 'usuario@ejemplo.com' },
-        { name: 'password', label: 'Contraseña', type: 'password', placeholder: '********' },
-        { name: 'amount', label: 'Monto', type: 'text', placeholder: '25.00' }
-      ],
-      'DIONE': [
-        { name: 'account', label: 'Cuenta', type: 'text', placeholder: '123456789' },
-        { name: 'pin', label: 'PIN', type: 'password', placeholder: '****' },
-        { name: 'amount', label: 'Monto', type: 'text', placeholder: '100.00' }
-      ],
-      'HEBE': [
-        { name: 'phone', label: 'Teléfono', type: 'text', placeholder: '+1234567890' },
-        { name: 'code', label: 'Código', type: 'text', placeholder: '1234' },
-        { name: 'amount', label: 'Monto', type: 'text', placeholder: '75.00' }
-      ],
-      'PAYPAL': [
-        { name: 'email', label: 'Email PayPal', type: 'email', placeholder: 'usuario@paypal.com' },
-        { name: 'password', label: 'Contraseña', type: 'password', placeholder: '********' },
-        { name: 'amount', label: 'Monto', type: 'text', placeholder: '200.00' }
-      ],
-      'HERMES': [
-        { name: 'card_number', label: 'Número de Tarjeta', type: 'text', placeholder: '4532123456789012' },
-        { name: 'exp_month', label: 'Mes', type: 'text', placeholder: '12' },
-        { name: 'exp_year', label: 'Año', type: 'text', placeholder: '25' },
-        { name: 'cvv', label: 'CVV', type: 'text', placeholder: '123' }
-      ]
-    };
-
-    return fieldConfigs[gateName] || [
-      { name: 'data', label: 'Datos', type: 'text', placeholder: 'Ingresa los datos...' }
-    ];
-  };
+  // Un solo input: cada gateway define su formato en el backend; aquí solo enviamos la cadena
 
   // Función para verificar con el gate seleccionado
   const handleCheck = async () => {
@@ -93,12 +40,8 @@ const Dashboard = () => {
       return;
     }
 
-    // Validar que todos los campos estén llenos
-    const gateFields = generateGateFields(selectedGate);
-    const missingFields = gateFields.filter(field => !inputData[field.name]?.trim());
-    
-    if (missingFields.length > 0) {
-      toast.error(`Faltan campos: ${missingFields.map(f => f.label).join(', ')}`);
+    if (!singleInput.trim()) {
+      toast.error('Ingresa los datos en el campo');
       return;
     }
 
@@ -106,7 +49,7 @@ const Dashboard = () => {
     toast.loading(`Verificando con ${selectedGate}...`, { id: 'checking' });
 
     try {
-      const result = await gatesAPI.checkGate(selectedGate, { data: inputData });
+      const result = await gatesAPI.checkGate(selectedGate, { input: singleInput });
       setResults(result);
       toast.success(`Verificación con ${selectedGate} completada`, { id: 'checking' });
     } catch (error) {
@@ -190,30 +133,20 @@ const Dashboard = () => {
 
           {selectedGate && (
             <div className="bg-white rounded-lg shadow p-6 mb-6">
-              <h2 className="text-lg font-semibold text-gray-900 mb-4">
-                Campos para {selectedGate}
-              </h2>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-                {generateGateFields(selectedGate).map((field) => (
-                  <div key={field.name}>
-                    <label className="block text-sm font-medium text-gray-700 mb-1">
-                      {field.label}
-                    </label>
-                    <input
-                      type={field.type}
-                      value={inputData[field.name] || ''}
-                      onChange={(e) => setInputData(prev => ({
-                        ...prev,
-                        [field.name]: e.target.value
-                      }))}
-                      placeholder={field.placeholder}
-                      className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    />
-                  </div>
-                ))}
+              <h2 className="text-lg font-semibold text-gray-900 mb-4">{selectedGate}</h2>
+              <div className="mb-4">
+                <label className="block text-sm font-medium text-gray-700 mb-1">Entrada</label>
+                <input
+                  type="text"
+                  value={singleInput}
+                  onChange={(e) => setSingleInput(e.target.value)}
+                  placeholder={selectedGate === 'AMAZON' ? 'cc|mm|yyyy|cvv' : 'Datos para el gateway'}
+                  className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                />
+                {selectedGate === 'AMAZON' && (
+                  <p className="text-xs text-gray-500 mt-1">Formato: número|mes|año|cvv. Requiere cookie configurada en Amazon.</p>
+                )}
               </div>
-
               <button
                 onClick={handleCheck}
                 disabled={isChecking}

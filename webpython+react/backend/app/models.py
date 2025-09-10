@@ -13,6 +13,8 @@ class User(Base):
     telegram_id = Column(String, unique=True, index=True, nullable=False)
     is_active = Column(Boolean, default=True)
     is_admin = Column(Boolean, default=False)
+    # Suscripción: fecha de expiración
+    subscription_expires_at = Column(DateTime(timezone=True), nullable=True)
     created_at = Column(DateTime(timezone=True), server_default=func.now())
     updated_at = Column(DateTime(timezone=True), onupdate=func.now())
     
@@ -29,6 +31,10 @@ class UserKey(Base):
     is_active = Column(Boolean, default=True)
     created_at = Column(DateTime(timezone=True), server_default=func.now())
     expires_at = Column(DateTime(timezone=True), nullable=True)
+    # Días de suscripción que otorga esta key
+    duration_days = Column(Integer, nullable=False, default=30)
+    # Fecha en la que fue usada/activada
+    activated_at = Column(DateTime(timezone=True), nullable=True)
     
     # Relaciones
     user = relationship("User", back_populates="keys")
