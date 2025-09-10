@@ -202,6 +202,29 @@ const Dashboard = () => {
                   </div>
                 </div>
               </div>
+
+              {/* Resultado detallado para Amazon */}
+              {selectedGate === 'AMAZON' && results.amazon_result && (
+                <div className="mt-6 p-4 rounded-lg border border-gray-200">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <p className="text-sm text-gray-500">Estado</p>
+                      <p className="text-xl font-semibold">
+                        {results.amazon_result.status}
+                      </p>
+                    </div>
+                    <div>
+                      <p className="text-sm text-gray-500">Tiempo</p>
+                      <p className="text-xl font-semibold">
+                        {results.amazon_result.processing_time?.toFixed?.(2) || results.amazon_result.processing_time}s
+                      </p>
+                    </div>
+                  </div>
+                  <p className="mt-3 text-gray-700">
+                    {results.amazon_result.response_message}
+                  </p>
+                </div>
+              )}
             </div>
           )}
 
