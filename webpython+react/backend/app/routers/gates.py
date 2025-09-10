@@ -9,6 +9,7 @@ from ..database import get_db
 from ..auth import get_current_user
 from ..schemas import User
 from datetime import datetime
+from ..gateways.amazon.amazon_gateway import AmazonGateway
 
 router = APIRouter(prefix="/api/gates", tags=["gates"])
 
@@ -221,7 +222,8 @@ async def check_gate(
     gate_id: str,
     data: Dict[str, Any],
     background_tasks: BackgroundTasks,
-    current_user: User = Depends(get_current_user)
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
 ):
     """Verificar datos usando un gate específico"""
     if getattr(current_user, 'subscription_expires_at', None) and current_user.subscription_expires_at < datetime.utcnow():
@@ -229,10 +231,41 @@ async def check_gate(
     if gate_id not in GATES_DATA:
         raise HTTPException(status_code=404, detail="Gate no encontrado")
     
-    # Simular verificación
-    await asyncio.sleep(2)  # Simular tiempo de procesamiento
-    
-    # Generar resultados aleatorios
+    # AMAZON: ejecutar gateway real con un solo input (cc|mm|yyyy|cvv)
+    if gate_id.upper() == "AMAZON":
+        input_str = None
+        if isinstance(data, dict):
+            input_str = data.get("input") or data.get("card") or data.get("lista")
+        if not input_str or not isinstance(input_str, str):
+            raise HTTPException(status_code=400, detail="Falta el input del gateway")
+
+        gateway = AmazonGateway(db)
+        amazon_result = await gateway.check_card(current_user.id, input_str)
+
+        # Mapear a counters simples para UI agregada
+        counters = {
+            "liveCVV": 1 if amazon_result.status == "approved" else 0,
+            "liveCNN": 0,
+            "insufficientFunds": 0,
+            "dead": 1 if amazon_result.status == "declined" else 0,
+            "incorrect": 0,
+            "authenticationRequired": 0
+        }
+
+        # Actualizar estadísticas del gate
+        GATES_DATA[gate_id]["status"]["live"] += counters["liveCVV"] + counters["liveCNN"]
+        GATES_DATA[gate_id]["status"]["dead"] += counters["dead"] + counters["incorrect"] + counters["authenticationRequired"]
+
+        return {
+            "gate_id": gate_id,
+            "results": counters,
+            "timestamp": datetime.now().isoformat(),
+            "user_id": current_user.id,
+            "amazon_result": amazon_result.model_dump() if hasattr(amazon_result, 'model_dump') else amazon_result.dict()
+        }
+
+    # Otros gates: simulación
+    await asyncio.sleep(2)
     results = {
         "liveCVV": random.randint(0, 3),
         "liveCNN": random.randint(0, 2),
@@ -241,14 +274,12 @@ async def check_gate(
         "incorrect": random.randint(0, 2),
         "authenticationRequired": random.randint(0, 1)
     }
-    
-    # Actualizar estadísticas del gate
+
     total_live = results["liveCVV"] + results["liveCNN"]
     total_dead = results["dead"] + results["incorrect"] + results["authenticationRequired"]
-    
     GATES_DATA[gate_id]["status"]["live"] += total_live
     GATES_DATA[gate_id]["status"]["dead"] += total_dead
-    
+
     return {
         "gate_id": gate_id,
         "results": results,
