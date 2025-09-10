@@ -1,0 +1,27 @@
+# Archivo de ejemplo con proxies de prueba
+# Estos son proxies ficticios para demostración
+
+# Proxies HTTP básicos (ip:port)
+192.168.1.100:8080
+192.168.1.101:8080
+192.168.1.102:8080
+10.0.0.50:3128
+10.0.0.51:3128
+
+# Proxies con autenticación (ip:port:user:pass)
+203.0.113.1:8080:usuario1:password1
+203.0.113.2:8080:usuario2:password2
+203.0.113.3:8080:usuario3:password3
+
+# Proxies SOCKS
+198.51.100.1:1080
+198.51.100.2:1080
+198.51.100.3:1080
+
+# Comentarios y líneas vacías son ignorados
+# 192.168.1.200:8080  # Este está comentado
+
+# Más proxies de ejemplo
+172.16.0.10:8080
+172.16.0.11:8080
+172.16.0.12:8080

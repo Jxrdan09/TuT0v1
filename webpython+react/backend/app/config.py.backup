@@ -1,0 +1,26 @@
+from pydantic_settings import BaseSettings
+from typing import Optional
+
+class Settings(BaseSettings):
+    # Configuración de MySQL/MariaDB
+    db_host: str = "localhost"
+    db_port: int = 3306
+    db_user: str = "root"
+    db_password: str = "password"
+    db_name: str = "script_platform"
+    
+    # URL de conexión para SQLAlchemy
+    @property
+    def database_url(self) -> str:
+        return f"mysql+pymysql://{self.db_user}:{self.db_password}@{self.db_host}:{self.db_port}/{self.db_name}"
+    
+    secret_key: str = "your-secret-key-change-this-in-production"
+    algorithm: str = "HS256"
+    access_token_expire_minutes: int = 30
+    admin_email: str = "admin@example.com"
+    admin_password: str = "admin123"
+    
+    class Config:
+        env_file = ".env"
+
+settings = Settings()

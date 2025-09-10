@@ -1,0 +1,2245 @@
+nohup: ignoring input
+
+> script-execution-frontend@1.0.0 start
+> react-scripts start
+
+Attempting to bind to HOST environment variable: 0.0.0.0
+If this was unintentional, check that you haven't mistakenly set it in your shell.
+Learn more here: https://cra.link/advanced-config
+
+(node:687025) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:687025) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view script-execution-frontend in the browser.
+
+  http://localhost:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+ERROR in [eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/App.js
+  Line 46:45:  'Dashboard' is not defined        react/jsx-no-undef
+  Line 47:52:  'GateChecker' is not defined      react/jsx-no-undef
+  Line 48:52:  'Scripts' is not defined          react/jsx-no-undef
+  Line 49:51:  'AmazonDashboard' is not defined  react/jsx-no-undef
+  Line 50:46:  'ProxyManager' is not defined     react/jsx-no-undef
+  Line 73:8:   'GateProvider' is not defined     react/jsx-no-undef
+
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+ERROR in [eslint] 
+src/App.js
+  Line 46:45:  'Dashboard' is not defined        react/jsx-no-undef
+  Line 47:52:  'GateChecker' is not defined      react/jsx-no-undef
+  Line 48:52:  'Scripts' is not defined          react/jsx-no-undef
+  Line 49:51:  'AmazonDashboard' is not defined  react/jsx-no-undef
+  Line 50:46:  'ProxyManager' is not defined     react/jsx-no-undef
+  Line 73:8:   'GateProvider' is not defined     react/jsx-no-undef
+
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/App.js
+  Line 62:8:  'GateProvider' is not defined  react/jsx-no-undef
+
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+ERROR in [eslint] 
+src/App.js
+  Line 62:8:  'GateProvider' is not defined  react/jsx-no-undef
+
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+ERROR in [eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/Layout.js
+  Line 64:20:  'Zap' is not defined         react/jsx-no-undef
+  Line 75:20:  'Terminal' is not defined    react/jsx-no-undef
+  Line 86:12:  'CreditCard' is not defined  react/jsx-no-undef
+  Line 98:12:  'Globe' is not defined       react/jsx-no-undef
+
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+ERROR in [eslint] 
+src/components/Layout.js
+  Line 64:20:  'Zap' is not defined         react/jsx-no-undef
+  Line 75:20:  'Terminal' is not defined    react/jsx-no-undef
+  Line 86:12:  'CreditCard' is not defined  react/jsx-no-undef
+  Line 98:12:  'Globe' is not defined       react/jsx-no-undef
+
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/Layout.js
+  Line 60:20:  'Zap' is not defined         react/jsx-no-undef
+  Line 71:20:  'Terminal' is not defined    react/jsx-no-undef
+  Line 82:12:  'CreditCard' is not defined  react/jsx-no-undef
+  Line 94:12:  'Globe' is not defined       react/jsx-no-undef
+
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+ERROR in [eslint] 
+src/components/Layout.js
+  Line 60:20:  'Zap' is not defined         react/jsx-no-undef
+  Line 71:20:  'Terminal' is not defined    react/jsx-no-undef
+  Line 82:12:  'CreditCard' is not defined  react/jsx-no-undef
+  Line 94:12:  'Globe' is not defined       react/jsx-no-undef
+
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/Layout.js
+  Line 61:20:  'Zap' is not defined       react/jsx-no-undef
+  Line 72:20:  'Terminal' is not defined  react/jsx-no-undef
+  Line 95:12:  'Globe' is not defined     react/jsx-no-undef
+
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+ERROR in [eslint] 
+src/components/Layout.js
+  Line 61:20:  'Zap' is not defined       react/jsx-no-undef
+  Line 72:20:  'Terminal' is not defined  react/jsx-no-undef
+  Line 95:12:  'Globe' is not defined     react/jsx-no-undef
+
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+ERROR in [eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/App.js
+  Line 9:8:   'Dashboard' is defined but never used        no-unused-vars
+  Line 10:8:  'AmazonDashboard' is defined but never used  no-unused-vars
+
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+ERROR in [eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+ERROR in [eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:9:    Unexpected empty object pattern                no-empty-pattern
+  Line 125:13:  'response' is assigned a value but never used  no-unused-vars
+
+ERROR in [eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:9:  Unexpected empty object pattern  no-empty-pattern
+
+ERROR in [eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:9:  Unexpected empty object pattern  no-empty-pattern
+
+src/pages/Dashboard.js
+  Line 8:3:   'Clock' is defined but never used        no-unused-vars
+  Line 9:3:   'CheckCircle' is defined but never used  no-unused-vars
+  Line 10:3:  'XCircle' is defined but never used      no-unused-vars
+
+ERROR in [eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:9:  Unexpected empty object pattern  no-empty-pattern
+
+src/pages/Dashboard.js
+  Line 3:22:  'gatesAPI' is defined but never used     no-unused-vars
+  Line 8:3:   'Clock' is defined but never used        no-unused-vars
+  Line 9:3:   'CheckCircle' is defined but never used  no-unused-vars
+  Line 10:3:  'XCircle' is defined but never used      no-unused-vars
+  Line 12:3:  'Zap' is defined but never used          no-unused-vars
+  Line 13:3:  'BarChart3' is defined but never used    no-unused-vars
+  Line 14:3:  'Users' is defined but never used        no-unused-vars
+
+ERROR in [eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:9:  Unexpected empty object pattern  no-empty-pattern
+
+src/pages/Dashboard.js
+  Line 3:22:   'gatesAPI' is defined but never used               no-unused-vars
+  Line 8:3:    'Clock' is defined but never used                  no-unused-vars
+  Line 9:3:    'CheckCircle' is defined but never used            no-unused-vars
+  Line 10:3:   'XCircle' is defined but never used                no-unused-vars
+  Line 12:3:   'Zap' is defined but never used                    no-unused-vars
+  Line 13:3:   'BarChart3' is defined but never used              no-unused-vars
+  Line 14:3:   'Users' is defined but never used                  no-unused-vars
+  Line 22:10:  'gates' is assigned a value but never used         no-unused-vars
+  Line 22:17:  'setGates' is assigned a value but never used      no-unused-vars
+  Line 23:10:  'gateStats' is assigned a value but never used     no-unused-vars
+  Line 23:21:  'setGateStats' is assigned a value but never used  no-unused-vars
+
+ERROR in [eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+src/pages/Dashboard.js
+  Line 28:5:  'fetchGatesData' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:9:  Unexpected empty object pattern  no-empty-pattern
+
+src/pages/Dashboard.js
+  Line 3:22:   'gatesAPI' is defined but never used               no-unused-vars
+  Line 8:3:    'Clock' is defined but never used                  no-unused-vars
+  Line 9:3:    'CheckCircle' is defined but never used            no-unused-vars
+  Line 10:3:   'XCircle' is defined but never used                no-unused-vars
+  Line 12:3:   'Zap' is defined but never used                    no-unused-vars
+  Line 13:3:   'BarChart3' is defined but never used              no-unused-vars
+  Line 14:3:   'Users' is defined but never used                  no-unused-vars
+  Line 22:10:  'gates' is assigned a value but never used         no-unused-vars
+  Line 22:17:  'setGates' is assigned a value but never used      no-unused-vars
+  Line 23:10:  'gateStats' is assigned a value but never used     no-unused-vars
+  Line 23:21:  'setGateStats' is assigned a value but never used  no-unused-vars
+
+ERROR in [eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+src/pages/Dashboard.js
+  Line 28:5:  'fetchGatesData' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:9:  Unexpected empty object pattern  no-empty-pattern
+
+src/pages/Dashboard.js
+  Line 8:3:    'Clock' is defined but never used               no-unused-vars
+  Line 9:3:    'CheckCircle' is defined but never used         no-unused-vars
+  Line 10:3:   'XCircle' is defined but never used             no-unused-vars
+  Line 12:3:   'Zap' is defined but never used                 no-unused-vars
+  Line 13:3:   'BarChart3' is defined but never used           no-unused-vars
+  Line 14:3:   'Users' is defined but never used               no-unused-vars
+  Line 22:10:  'gates' is assigned a value but never used      no-unused-vars
+  Line 23:10:  'gateStats' is assigned a value but never used  no-unused-vars
+
+ERROR in [eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:9:  Unexpected empty object pattern  no-empty-pattern
+
+src/pages/Dashboard.js
+  Line 8:3:   'Clock' is defined but never used        no-unused-vars
+  Line 9:3:   'CheckCircle' is defined but never used  no-unused-vars
+  Line 10:3:  'XCircle' is defined but never used      no-unused-vars
+
+ERROR in [eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:9:  Unexpected empty object pattern  no-empty-pattern
+
+src/pages/Dashboard.js
+  Line 8:3:   'Clock' is defined but never used        no-unused-vars
+  Line 9:3:   'CheckCircle' is defined but never used  no-unused-vars
+  Line 10:3:  'XCircle' is defined but never used      no-unused-vars
+
+ERROR in [eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/components/Layout.js
+  Line 11:3:  'Zap' is defined but never used       no-unused-vars
+  Line 12:3:  'Terminal' is defined but never used  no-unused-vars
+
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:9:  Unexpected empty object pattern  no-empty-pattern
+
+src/pages/Dashboard.js
+  Line 8:3:   'Clock' is defined but never used        no-unused-vars
+  Line 9:3:   'CheckCircle' is defined but never used  no-unused-vars
+  Line 10:3:  'XCircle' is defined but never used      no-unused-vars
+
+ERROR in [eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/components/Layout.js
+  Line 11:3:  'Zap' is defined but never used       no-unused-vars
+  Line 12:3:  'Terminal' is defined but never used  no-unused-vars
+  Line 13:3:  'Globe' is defined but never used     no-unused-vars
+
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:9:  Unexpected empty object pattern  no-empty-pattern
+
+src/pages/Dashboard.js
+  Line 8:3:   'Clock' is defined but never used        no-unused-vars
+  Line 9:3:   'CheckCircle' is defined but never used  no-unused-vars
+  Line 10:3:  'XCircle' is defined but never used      no-unused-vars
+
+ERROR in [eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:9:  Unexpected empty object pattern  no-empty-pattern
+
+src/pages/Dashboard.js
+  Line 8:3:   'Clock' is defined but never used        no-unused-vars
+  Line 9:3:   'CheckCircle' is defined but never used  no-unused-vars
+  Line 10:3:  'XCircle' is defined but never used      no-unused-vars
+
+ERROR in [eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+src/pages/Dashboard.js
+  Line 27:30:   'scriptsAPI' is not defined  no-undef
+  Line 56:13:   'scriptsAPI' is not defined  no-undef
+  Line 98:10:   'Link' is not defined        react/jsx-no-undef
+  Line 102:12:  'Plus' is not defined        react/jsx-no-undef
+  Line 112:16:  'Code' is not defined        react/jsx-no-undef
+  Line 168:16:  'Play' is not defined        react/jsx-no-undef
+  Line 182:16:  'FileText' is not defined    react/jsx-no-undef
+  Line 200:12:  'Link' is not defined        react/jsx-no-undef
+  Line 210:14:  'Code' is not defined        react/jsx-no-undef
+  Line 212:14:  'Link' is not defined        react/jsx-no-undef
+  Line 244:22:  'Play' is not defined        react/jsx-no-undef
+  Line 247:20:  'Link' is not defined        react/jsx-no-undef
+  Line 266:12:  'Link' is not defined        react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:9:  Unexpected empty object pattern  no-empty-pattern
+
+src/pages/Dashboard.js
+  Line 8:3:  'CheckCircle' is defined but never used  no-unused-vars
+  Line 9:3:  'XCircle' is defined but never used      no-unused-vars
+
+ERROR in [eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+src/pages/Dashboard.js
+  Line 27:30:   'scriptsAPI' is not defined  no-undef
+  Line 56:13:   'scriptsAPI' is not defined  no-undef
+  Line 98:10:   'Link' is not defined        react/jsx-no-undef
+  Line 102:12:  'Plus' is not defined        react/jsx-no-undef
+  Line 112:16:  'Code' is not defined        react/jsx-no-undef
+  Line 168:16:  'Play' is not defined        react/jsx-no-undef
+  Line 182:16:  'FileText' is not defined    react/jsx-no-undef
+  Line 200:12:  'Link' is not defined        react/jsx-no-undef
+  Line 210:14:  'Code' is not defined        react/jsx-no-undef
+  Line 212:14:  'Link' is not defined        react/jsx-no-undef
+  Line 244:22:  'Play' is not defined        react/jsx-no-undef
+  Line 247:20:  'Link' is not defined        react/jsx-no-undef
+  Line 266:12:  'Link' is not defined        react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+src/pages/Dashboard.js
+  Line 28:30:   'scriptsAPI' is not defined  no-undef
+  Line 29:7:    'setScripts' is not defined  no-undef
+  Line 57:13:   'scriptsAPI' is not defined  no-undef
+  Line 99:10:   'Link' is not defined        react/jsx-no-undef
+  Line 103:12:  'Plus' is not defined        react/jsx-no-undef
+  Line 113:16:  'Code' is not defined        react/jsx-no-undef
+  Line 118:18:  'scripts' is not defined     no-undef
+  Line 169:16:  'Play' is not defined        react/jsx-no-undef
+  Line 174:18:  'scripts' is not defined     no-undef
+  Line 183:16:  'FileText' is not defined    react/jsx-no-undef
+  Line 188:26:  'scripts' is not defined     no-undef
+  Line 201:12:  'Link' is not defined        react/jsx-no-undef
+  Line 209:10:  'scripts' is not defined     no-undef
+  Line 211:14:  'Code' is not defined        react/jsx-no-undef
+  Line 213:14:  'Link' is not defined        react/jsx-no-undef
+  Line 219:14:  'scripts' is not defined     no-undef
+  Line 245:22:  'Play' is not defined        react/jsx-no-undef
+  Line 248:20:  'Link' is not defined        react/jsx-no-undef
+  Line 267:12:  'Link' is not defined        react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:9:  Unexpected empty object pattern  no-empty-pattern
+
+src/pages/Dashboard.js
+  Line 8:3:    'CheckCircle' is defined but never used               no-unused-vars
+  Line 9:3:    'XCircle' is defined but never used                   no-unused-vars
+  Line 15:10:  'inputValue' is assigned a value but never used       no-unused-vars
+  Line 15:22:  'setInputValue' is assigned a value but never used    no-unused-vars
+  Line 19:10:  'selectedGate' is assigned a value but never used     no-unused-vars
+  Line 19:24:  'setSelectedGate' is assigned a value but never used  no-unused-vars
+
+ERROR in [eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+src/pages/Dashboard.js
+  Line 28:30:   'scriptsAPI' is not defined  no-undef
+  Line 29:7:    'setScripts' is not defined  no-undef
+  Line 57:13:   'scriptsAPI' is not defined  no-undef
+  Line 99:10:   'Link' is not defined        react/jsx-no-undef
+  Line 103:12:  'Plus' is not defined        react/jsx-no-undef
+  Line 113:16:  'Code' is not defined        react/jsx-no-undef
+  Line 118:18:  'scripts' is not defined     no-undef
+  Line 169:16:  'Play' is not defined        react/jsx-no-undef
+  Line 174:18:  'scripts' is not defined     no-undef
+  Line 183:16:  'FileText' is not defined    react/jsx-no-undef
+  Line 188:26:  'scripts' is not defined     no-undef
+  Line 201:12:  'Link' is not defined        react/jsx-no-undef
+  Line 209:10:  'scripts' is not defined     no-undef
+  Line 211:14:  'Code' is not defined        react/jsx-no-undef
+  Line 213:14:  'Link' is not defined        react/jsx-no-undef
+  Line 219:14:  'scripts' is not defined     no-undef
+  Line 245:22:  'Play' is not defined        react/jsx-no-undef
+  Line 248:20:  'Link' is not defined        react/jsx-no-undef
+  Line 267:12:  'Link' is not defined        react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+src/pages/Dashboard.js
+  Line 27:30:   'scriptsAPI' is not defined  no-undef
+  Line 28:7:    'setScripts' is not defined  no-undef
+  Line 56:13:   'scriptsAPI' is not defined  no-undef
+  Line 98:10:   'Link' is not defined        react/jsx-no-undef
+  Line 102:12:  'Plus' is not defined        react/jsx-no-undef
+  Line 112:16:  'Code' is not defined        react/jsx-no-undef
+  Line 117:18:  'scripts' is not defined     no-undef
+  Line 168:16:  'Play' is not defined        react/jsx-no-undef
+  Line 173:18:  'scripts' is not defined     no-undef
+  Line 182:16:  'FileText' is not defined    react/jsx-no-undef
+  Line 187:26:  'scripts' is not defined     no-undef
+  Line 200:12:  'Link' is not defined        react/jsx-no-undef
+  Line 208:10:  'scripts' is not defined     no-undef
+  Line 210:14:  'Code' is not defined        react/jsx-no-undef
+  Line 212:14:  'Link' is not defined        react/jsx-no-undef
+  Line 218:14:  'scripts' is not defined     no-undef
+  Line 244:22:  'Play' is not defined        react/jsx-no-undef
+  Line 247:20:  'Link' is not defined        react/jsx-no-undef
+  Line 266:12:  'Link' is not defined        react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:9:  Unexpected empty object pattern  no-empty-pattern
+
+src/pages/Dashboard.js
+  Line 8:3:    'CheckCircle' is defined but never used               no-unused-vars
+  Line 9:3:    'XCircle' is defined but never used                   no-unused-vars
+  Line 15:10:  'inputValue' is assigned a value but never used       no-unused-vars
+  Line 15:22:  'setInputValue' is assigned a value but never used    no-unused-vars
+  Line 19:10:  'selectedGate' is assigned a value but never used     no-unused-vars
+  Line 19:24:  'setSelectedGate' is assigned a value but never used  no-unused-vars
+
+ERROR in [eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+src/pages/Dashboard.js
+  Line 27:30:   'scriptsAPI' is not defined  no-undef
+  Line 28:7:    'setScripts' is not defined  no-undef
+  Line 56:13:   'scriptsAPI' is not defined  no-undef
+  Line 98:10:   'Link' is not defined        react/jsx-no-undef
+  Line 102:12:  'Plus' is not defined        react/jsx-no-undef
+  Line 112:16:  'Code' is not defined        react/jsx-no-undef
+  Line 117:18:  'scripts' is not defined     no-undef
+  Line 168:16:  'Play' is not defined        react/jsx-no-undef
+  Line 173:18:  'scripts' is not defined     no-undef
+  Line 182:16:  'FileText' is not defined    react/jsx-no-undef
+  Line 187:26:  'scripts' is not defined     no-undef
+  Line 200:12:  'Link' is not defined        react/jsx-no-undef
+  Line 208:10:  'scripts' is not defined     no-undef
+  Line 210:14:  'Code' is not defined        react/jsx-no-undef
+  Line 212:14:  'Link' is not defined        react/jsx-no-undef
+  Line 218:14:  'scripts' is not defined     no-undef
+  Line 244:22:  'Play' is not defined        react/jsx-no-undef
+  Line 247:20:  'Link' is not defined        react/jsx-no-undef
+  Line 266:12:  'Link' is not defined        react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+src/pages/Dashboard.js
+  Line 66:13:   'scriptsAPI' is not defined    no-undef
+  Line 68:7:    'fetchScripts' is not defined  no-undef
+  Line 108:10:  'Link' is not defined          react/jsx-no-undef
+  Line 112:12:  'Plus' is not defined          react/jsx-no-undef
+  Line 122:16:  'Code' is not defined          react/jsx-no-undef
+  Line 127:18:  'scripts' is not defined       no-undef
+  Line 178:16:  'Play' is not defined          react/jsx-no-undef
+  Line 183:18:  'scripts' is not defined       no-undef
+  Line 192:16:  'FileText' is not defined      react/jsx-no-undef
+  Line 197:26:  'scripts' is not defined       no-undef
+  Line 210:12:  'Link' is not defined          react/jsx-no-undef
+  Line 218:10:  'scripts' is not defined       no-undef
+  Line 220:14:  'Code' is not defined          react/jsx-no-undef
+  Line 222:14:  'Link' is not defined          react/jsx-no-undef
+  Line 228:14:  'scripts' is not defined       no-undef
+  Line 254:22:  'Play' is not defined          react/jsx-no-undef
+  Line 257:20:  'Link' is not defined          react/jsx-no-undef
+  Line 276:12:  'Link' is not defined          react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:9:  Unexpected empty object pattern  no-empty-pattern
+
+src/pages/Dashboard.js
+  Line 8:3:    'CheckCircle' is defined but never used             no-unused-vars
+  Line 9:3:    'XCircle' is defined but never used                 no-unused-vars
+  Line 15:22:  'setInputValue' is assigned a value but never used  no-unused-vars
+  Line 19:10:  'selectedGate' is assigned a value but never used   no-unused-vars
+  Line 26:9:   'useGate' is assigned a value but never used        no-unused-vars
+
+ERROR in [eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+src/pages/Dashboard.js
+  Line 66:13:   'scriptsAPI' is not defined    no-undef
+  Line 68:7:    'fetchScripts' is not defined  no-undef
+  Line 108:10:  'Link' is not defined          react/jsx-no-undef
+  Line 112:12:  'Plus' is not defined          react/jsx-no-undef
+  Line 122:16:  'Code' is not defined          react/jsx-no-undef
+  Line 127:18:  'scripts' is not defined       no-undef
+  Line 178:16:  'Play' is not defined          react/jsx-no-undef
+  Line 183:18:  'scripts' is not defined       no-undef
+  Line 192:16:  'FileText' is not defined      react/jsx-no-undef
+  Line 197:26:  'scripts' is not defined       no-undef
+  Line 210:12:  'Link' is not defined          react/jsx-no-undef
+  Line 218:10:  'scripts' is not defined       no-undef
+  Line 220:14:  'Code' is not defined          react/jsx-no-undef
+  Line 222:14:  'Link' is not defined          react/jsx-no-undef
+  Line 228:14:  'scripts' is not defined       no-undef
+  Line 254:22:  'Play' is not defined          react/jsx-no-undef
+  Line 257:20:  'Link' is not defined          react/jsx-no-undef
+  Line 276:12:  'Link' is not defined          react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+src/pages/Dashboard.js
+  Line 69:13:   'scriptsAPI' is not defined    no-undef
+  Line 71:7:    'fetchScripts' is not defined  no-undef
+  Line 111:10:  'Link' is not defined          react/jsx-no-undef
+  Line 115:12:  'Plus' is not defined          react/jsx-no-undef
+  Line 125:16:  'Code' is not defined          react/jsx-no-undef
+  Line 130:18:  'scripts' is not defined       no-undef
+  Line 181:16:  'Play' is not defined          react/jsx-no-undef
+  Line 186:18:  'scripts' is not defined       no-undef
+  Line 195:16:  'FileText' is not defined      react/jsx-no-undef
+  Line 200:26:  'scripts' is not defined       no-undef
+  Line 213:12:  'Link' is not defined          react/jsx-no-undef
+  Line 221:10:  'scripts' is not defined       no-undef
+  Line 223:14:  'Code' is not defined          react/jsx-no-undef
+  Line 225:14:  'Link' is not defined          react/jsx-no-undef
+  Line 231:14:  'scripts' is not defined       no-undef
+  Line 257:22:  'Play' is not defined          react/jsx-no-undef
+  Line 260:20:  'Link' is not defined          react/jsx-no-undef
+  Line 279:12:  'Link' is not defined          react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:9:  Unexpected empty object pattern  no-empty-pattern
+
+src/pages/Dashboard.js
+  Line 8:3:    'CheckCircle' is defined but never used             no-unused-vars
+  Line 9:3:    'XCircle' is defined but never used                 no-unused-vars
+  Line 15:22:  'setInputValue' is assigned a value but never used  no-unused-vars
+  Line 19:10:  'selectedGate' is assigned a value but never used   no-unused-vars
+  Line 26:9:   'useGate' is assigned a value but never used        no-unused-vars
+
+ERROR in [eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+src/pages/Dashboard.js
+  Line 69:13:   'scriptsAPI' is not defined    no-undef
+  Line 71:7:    'fetchScripts' is not defined  no-undef
+  Line 111:10:  'Link' is not defined          react/jsx-no-undef
+  Line 115:12:  'Plus' is not defined          react/jsx-no-undef
+  Line 125:16:  'Code' is not defined          react/jsx-no-undef
+  Line 130:18:  'scripts' is not defined       no-undef
+  Line 181:16:  'Play' is not defined          react/jsx-no-undef
+  Line 186:18:  'scripts' is not defined       no-undef
+  Line 195:16:  'FileText' is not defined      react/jsx-no-undef
+  Line 200:26:  'scripts' is not defined       no-undef
+  Line 213:12:  'Link' is not defined          react/jsx-no-undef
+  Line 221:10:  'scripts' is not defined       no-undef
+  Line 223:14:  'Code' is not defined          react/jsx-no-undef
+  Line 225:14:  'Link' is not defined          react/jsx-no-undef
+  Line 231:14:  'scripts' is not defined       no-undef
+  Line 257:22:  'Play' is not defined          react/jsx-no-undef
+  Line 260:20:  'Link' is not defined          react/jsx-no-undef
+  Line 279:12:  'Link' is not defined          react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+src/pages/Dashboard.js
+  Line 93:28:  React Hook "useGate" cannot be called inside a callback. React Hooks must be called in a React function component or a custom React Hook function  react-hooks/rules-of-hooks
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:9:  Unexpected empty object pattern  no-empty-pattern
+
+src/pages/Dashboard.js
+  Line 5:3:  'Zap' is defined but never used          no-unused-vars
+  Line 8:3:  'CheckCircle' is defined but never used  no-unused-vars
+  Line 9:3:  'XCircle' is defined but never used      no-unused-vars
+
+ERROR in [eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+src/pages/Dashboard.js
+  Line 93:28:  React Hook "useGate" cannot be called inside a callback. React Hooks must be called in a React function component or a custom React Hook function  react-hooks/rules-of-hooks
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+src/pages/Dashboard.js
+  Line 93:28:  React Hook "useGate" cannot be called inside a callback. React Hooks must be called in a React function component or a custom React Hook function  react-hooks/rules-of-hooks
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:9:  Unexpected empty object pattern  no-empty-pattern
+
+src/pages/Dashboard.js
+  Line 5:3:  'Zap' is defined but never used          no-unused-vars
+  Line 8:3:  'CheckCircle' is defined but never used  no-unused-vars
+  Line 9:3:  'XCircle' is defined but never used      no-unused-vars
+
+ERROR in [eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+src/pages/Dashboard.js
+  Line 93:28:  React Hook "useGate" cannot be called inside a callback. React Hooks must be called in a React function component or a custom React Hook function  react-hooks/rules-of-hooks
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+src/pages/Dashboard.js
+  Line 93:28:  React Hook "useGate" cannot be called inside a callback. React Hooks must be called in a React function component or a custom React Hook function  react-hooks/rules-of-hooks
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:9:  Unexpected empty object pattern  no-empty-pattern
+
+src/pages/Dashboard.js
+  Line 5:3:  'Zap' is defined but never used          no-unused-vars
+  Line 8:3:  'CheckCircle' is defined but never used  no-unused-vars
+  Line 9:3:  'XCircle' is defined but never used      no-unused-vars
+
+ERROR in [eslint] 
+src/pages/AdminPanel.js
+  Line 41:7:  'setGateways' is not defined  no-undef
+
+src/pages/Dashboard.js
+  Line 93:28:  React Hook "useGate" cannot be called inside a callback. React Hooks must be called in a React function component or a custom React Hook function  react-hooks/rules-of-hooks
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 93:28:  React Hook "useGate" cannot be called inside a callback. React Hooks must be called in a React function component or a custom React Hook function  react-hooks/rules-of-hooks
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:9:  Unexpected empty object pattern  no-empty-pattern
+
+src/pages/Dashboard.js
+  Line 5:3:  'Zap' is defined but never used          no-unused-vars
+  Line 8:3:  'CheckCircle' is defined but never used  no-unused-vars
+  Line 9:3:  'XCircle' is defined but never used      no-unused-vars
+
+ERROR in [eslint] 
+src/pages/Dashboard.js
+  Line 93:28:  React Hook "useGate" cannot be called inside a callback. React Hooks must be called in a React function component or a custom React Hook function  react-hooks/rules-of-hooks
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:9:  Unexpected empty object pattern  no-empty-pattern
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:9:  Unexpected empty object pattern  no-empty-pattern
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:9:  Unexpected empty object pattern  no-empty-pattern
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:9:  Unexpected empty object pattern  no-empty-pattern
+
+webpack compiled with 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 94:28:  React Hook "useGate" cannot be called inside a callback. React Hooks must be called in a React function component or a custom React Hook function  react-hooks/rules-of-hooks
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:9:  Unexpected empty object pattern  no-empty-pattern
+
+src/pages/Dashboard.js
+  Line 5:3:  'Zap' is defined but never used          no-unused-vars
+  Line 8:3:  'CheckCircle' is defined but never used  no-unused-vars
+  Line 9:3:  'XCircle' is defined but never used      no-unused-vars
+
+ERROR in [eslint] 
+src/pages/Dashboard.js
+  Line 94:28:  React Hook "useGate" cannot be called inside a callback. React Hooks must be called in a React function component or a custom React Hook function  react-hooks/rules-of-hooks
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 94:28:  React Hook "useGate" cannot be called inside a callback. React Hooks must be called in a React function component or a custom React Hook function  react-hooks/rules-of-hooks
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:9:  Unexpected empty object pattern  no-empty-pattern
+
+src/pages/Dashboard.js
+  Line 5:3:  'Zap' is defined but never used          no-unused-vars
+  Line 8:3:  'CheckCircle' is defined but never used  no-unused-vars
+  Line 9:3:  'XCircle' is defined but never used      no-unused-vars
+
+ERROR in [eslint] 
+src/pages/Dashboard.js
+  Line 94:28:  React Hook "useGate" cannot be called inside a callback. React Hooks must be called in a React function component or a custom React Hook function  react-hooks/rules-of-hooks
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Dashboard.js
+  Line 94:28:  React Hook "useGate" cannot be called inside a callback. React Hooks must be called in a React function component or a custom React Hook function  react-hooks/rules-of-hooks
+  Line 94:28:  'useGate' is not defined                                                                                                                           no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:9:  Unexpected empty object pattern  no-empty-pattern
+
+src/pages/Dashboard.js
+  Line 5:3:   'Zap' is defined but never used                       no-unused-vars
+  Line 8:3:   'CheckCircle' is defined but never used               no-unused-vars
+  Line 9:3:   'XCircle' is defined but never used                   no-unused-vars
+  Line 26:9:  'handleGateClick' is assigned a value but never used  no-unused-vars
+
+ERROR in [eslint] 
+src/pages/Dashboard.js
+  Line 94:28:  React Hook "useGate" cannot be called inside a callback. React Hooks must be called in a React function component or a custom React Hook function  react-hooks/rules-of-hooks
+  Line 94:28:  'useGate' is not defined                                                                                                                           no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:9:  Unexpected empty object pattern  no-empty-pattern
+
+src/pages/Dashboard.js
+  Line 5:3:  'Zap' is defined but never used          no-unused-vars
+  Line 8:3:  'CheckCircle' is defined but never used  no-unused-vars
+  Line 9:3:  'XCircle' is defined but never used      no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:9:  Unexpected empty object pattern  no-empty-pattern
+
+src/pages/Dashboard.js
+  Line 5:3:  'Zap' is defined but never used          no-unused-vars
+  Line 8:3:  'CheckCircle' is defined but never used  no-unused-vars
+  Line 9:3:  'XCircle' is defined but never used      no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:9:  Unexpected empty object pattern  no-empty-pattern
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:9:  Unexpected empty object pattern  no-empty-pattern
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used     no-unused-vars
+  Line 21:20:  'setGateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used     no-unused-vars
+  Line 21:20:  'setGateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve '../components/AnimatedBackground' in '/root/webpython+react/frontend/src/pages'
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+ERROR in ./src/pages/Login.js 13:0-66
+Module not found: Error: Can't resolve '../components/AnimatedBackground' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 13:0-66
+Module not found: Error: Can't resolve '../components/AnimatedBackground' in '/root/webpython+react/frontend/src/pages'
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve '../components/AnimatedButton' in '/root/webpython+react/frontend/src/pages'
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+ERROR in ./src/pages/Login.js 12:0-58
+Module not found: Error: Can't resolve '../components/AnimatedButton' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Login.js 13:0-66
+Module not found: Error: Can't resolve '../components/AnimatedBackground' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 12:0-58
+Module not found: Error: Can't resolve '../components/AnimatedButton' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 13:0-66
+Module not found: Error: Can't resolve '../components/AnimatedBackground' in '/root/webpython+react/frontend/src/pages'
+
+webpack compiled with 4 errors and 1 warning
+Compiling...
+Failed to compile.
+
+Error: ENOENT: no such file or directory, open '/root/webpython+react/frontend/src/components/AnimatedForm.js'
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+ERROR in ./src/components/AnimatedForm.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: ENOENT: no such file or directory, open '/root/webpython+react/frontend/src/components/AnimatedForm.js'
+
+ERROR in ./src/pages/Login.js 12:0-58
+Module not found: Error: Can't resolve '../components/AnimatedButton' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Login.js 13:0-66
+Module not found: Error: Can't resolve '../components/AnimatedBackground' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 12:0-58
+Module not found: Error: Can't resolve '../components/AnimatedButton' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 13:0-66
+Module not found: Error: Can't resolve '../components/AnimatedBackground' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in [eslint] No files matching '/root/webpython+react/frontend/src/components/AnimatedForm.js' were found.
+
+webpack compiled with 6 errors and 1 warning
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve '../components/AnimatedForm' in '/root/webpython+react/frontend/src/pages'
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+ERROR in ./src/pages/Login.js 10:0-54
+Module not found: Error: Can't resolve '../components/AnimatedForm' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Login.js 12:0-58
+Module not found: Error: Can't resolve '../components/AnimatedButton' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Login.js 13:0-66
+Module not found: Error: Can't resolve '../components/AnimatedBackground' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 10:0-54
+Module not found: Error: Can't resolve '../components/AnimatedForm' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 12:0-58
+Module not found: Error: Can't resolve '../components/AnimatedButton' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 13:0-66
+Module not found: Error: Can't resolve '../components/AnimatedBackground' in '/root/webpython+react/frontend/src/pages'
+
+webpack compiled with 6 errors and 1 warning
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve '../components/AnimatedForm' in '/root/webpython+react/frontend/src/pages'
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+ERROR in ./src/pages/Login.js 10:0-54
+Module not found: Error: Can't resolve '../components/AnimatedForm' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Login.js 11:0-56
+Module not found: Error: Can't resolve '../components/AnimatedInput' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Login.js 12:0-58
+Module not found: Error: Can't resolve '../components/AnimatedButton' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Login.js 13:0-66
+Module not found: Error: Can't resolve '../components/AnimatedBackground' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 10:0-54
+Module not found: Error: Can't resolve '../components/AnimatedForm' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 11:0-56
+Module not found: Error: Can't resolve '../components/AnimatedInput' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 12:0-58
+Module not found: Error: Can't resolve '../components/AnimatedButton' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 13:0-66
+Module not found: Error: Can't resolve '../components/AnimatedBackground' in '/root/webpython+react/frontend/src/pages'
+
+webpack compiled with 8 errors and 1 warning
+Proxy error: Could not proxy request /favicon.ico from 162.240.104.247:3000 to http://localhost:8000.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Failed to compile.
+
+Module not found: Error: Can't resolve '../components/AnimatedForm' in '/root/webpython+react/frontend/src/pages'
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+ERROR in ./src/pages/Login.js 10:0-54
+Module not found: Error: Can't resolve '../components/AnimatedForm' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Login.js 11:0-56
+Module not found: Error: Can't resolve '../components/AnimatedInput' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Login.js 12:0-58
+Module not found: Error: Can't resolve '../components/AnimatedButton' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Login.js 13:0-66
+Module not found: Error: Can't resolve '../components/AnimatedBackground' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 10:0-54
+Module not found: Error: Can't resolve '../components/AnimatedForm' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 11:0-56
+Module not found: Error: Can't resolve '../components/AnimatedInput' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 12:0-58
+Module not found: Error: Can't resolve '../components/AnimatedButton' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 13:0-66
+Module not found: Error: Can't resolve '../components/AnimatedBackground' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./node_modules/lucide-react/dist/esm/lucide-react.mjs
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: ENOENT: no such file or directory, open '/root/webpython+react/frontend/node_modules/lucide-react/dist/esm/lucide-react.mjs'
+
+webpack compiled with 9 errors and 1 warning
+Failed to compile.
+
+Module not found: Error: Can't resolve '../components/AnimatedForm' in '/root/webpython+react/frontend/src/pages'
+LOG from webpack.FileSystemInfo
+<w> Managed item /root/webpython+react/frontend/node_modules/react-dom isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
++ 8 hidden lines
+
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+ERROR in ./src/pages/Login.js 10:0-54
+Module not found: Error: Can't resolve '../components/AnimatedForm' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Login.js 11:0-56
+Module not found: Error: Can't resolve '../components/AnimatedInput' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Login.js 12:0-58
+Module not found: Error: Can't resolve '../components/AnimatedButton' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Login.js 13:0-66
+Module not found: Error: Can't resolve '../components/AnimatedBackground' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 10:0-54
+Module not found: Error: Can't resolve '../components/AnimatedForm' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 11:0-56
+Module not found: Error: Can't resolve '../components/AnimatedInput' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 12:0-58
+Module not found: Error: Can't resolve '../components/AnimatedButton' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 13:0-66
+Module not found: Error: Can't resolve '../components/AnimatedBackground' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./node_modules/react-dom/client.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: ENOENT: no such file or directory, open '/root/webpython+react/frontend/node_modules/react-dom/client.js'
+
+ERROR in ./node_modules/react-dom/index.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: ENOENT: no such file or directory, open '/root/webpython+react/frontend/node_modules/react-dom/index.js'
+
+ERROR in ./node_modules/lucide-react/dist/esm/lucide-react.mjs
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: ENOENT: no such file or directory, open '/root/webpython+react/frontend/node_modules/lucide-react/dist/esm/lucide-react.mjs'
+
+webpack compiled with 11 errors and 1 warning
+Failed to compile.
+
+Module not found: Error: Can't resolve '../components/AnimatedForm' in '/root/webpython+react/frontend/src/pages'
+LOG from webpack.FileSystemInfo
+<w> Managed item /root/webpython+react/frontend/node_modules/webpack-dev-server isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
++ 12 hidden lines
+
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+ERROR in ./src/pages/Login.js 10:0-54
+Module not found: Error: Can't resolve '../components/AnimatedForm' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Login.js 11:0-56
+Module not found: Error: Can't resolve '../components/AnimatedInput' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Login.js 12:0-58
+Module not found: Error: Can't resolve '../components/AnimatedButton' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Login.js 13:0-66
+Module not found: Error: Can't resolve '../components/AnimatedBackground' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 10:0-54
+Module not found: Error: Can't resolve '../components/AnimatedForm' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 11:0-56
+Module not found: Error: Can't resolve '../components/AnimatedInput' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 12:0-58
+Module not found: Error: Can't resolve '../components/AnimatedButton' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 13:0-66
+Module not found: Error: Can't resolve '../components/AnimatedBackground' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./node_modules/react-dom/client.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: ENOENT: no such file or directory, open '/root/webpython+react/frontend/node_modules/react-dom/client.js'
+
+ERROR in ./node_modules/react-dom/index.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: ENOENT: no such file or directory, open '/root/webpython+react/frontend/node_modules/react-dom/index.js'
+
+ERROR in ./node_modules/lucide-react/dist/esm/lucide-react.mjs
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: ENOENT: no such file or directory, open '/root/webpython+react/frontend/node_modules/lucide-react/dist/esm/lucide-react.mjs'
+
+ERROR in Module not found: Error: Can't resolve '/root/webpython+react/frontend/node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=none&overlay=%7B%22errors%22%3Atrue%2C%22warnings%22%3Afalse%7D&reconnect=10&hot=true&live-reload=true' in '/root/webpython+react/frontend'
+
+webpack compiled with 12 errors and 1 warning
+Failed to compile.
+
+Module not found: Error: Can't resolve '../components/AnimatedForm' in '/root/webpython+react/frontend/src/pages'
+LOG from webpack.FileSystemInfo
+<w> Managed item /root/webpython+react/frontend/node_modules/goober isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
++ 8 hidden lines
+
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+ERROR in ./src/pages/Login.js 10:0-54
+Module not found: Error: Can't resolve '../components/AnimatedForm' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Login.js 11:0-56
+Module not found: Error: Can't resolve '../components/AnimatedInput' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Login.js 12:0-58
+Module not found: Error: Can't resolve '../components/AnimatedButton' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Login.js 13:0-66
+Module not found: Error: Can't resolve '../components/AnimatedBackground' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 10:0-54
+Module not found: Error: Can't resolve '../components/AnimatedForm' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 11:0-56
+Module not found: Error: Can't resolve '../components/AnimatedInput' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 12:0-58
+Module not found: Error: Can't resolve '../components/AnimatedButton' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 13:0-66
+Module not found: Error: Can't resolve '../components/AnimatedBackground' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./node_modules/react-dom/client.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: ENOENT: no such file or directory, open '/root/webpython+react/frontend/node_modules/react-dom/client.js'
+
+ERROR in ./node_modules/react-dom/index.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: ENOENT: no such file or directory, open '/root/webpython+react/frontend/node_modules/react-dom/index.js'
+
+ERROR in ./node_modules/goober/dist/goober.modern.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: ENOENT: no such file or directory, open '/root/webpython+react/frontend/node_modules/goober/dist/goober.modern.js'
+
+ERROR in ./node_modules/lucide-react/dist/esm/lucide-react.mjs
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: ENOENT: no such file or directory, open '/root/webpython+react/frontend/node_modules/lucide-react/dist/esm/lucide-react.mjs'
+
+ERROR in Module not found: Error: Can't resolve '/root/webpython+react/frontend/node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=none&overlay=%7B%22errors%22%3Atrue%2C%22warnings%22%3Afalse%7D&reconnect=10&hot=true&live-reload=true' in '/root/webpython+react/frontend'
+
+webpack compiled with 13 errors and 1 warning
+Failed to compile.
+
+Module not found: Error: Can't resolve '../components/AnimatedForm' in '/root/webpython+react/frontend/src/pages'
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+ERROR in ./src/pages/Login.js 10:0-54
+Module not found: Error: Can't resolve '../components/AnimatedForm' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Login.js 11:0-56
+Module not found: Error: Can't resolve '../components/AnimatedInput' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Login.js 12:0-58
+Module not found: Error: Can't resolve '../components/AnimatedButton' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Login.js 13:0-66
+Module not found: Error: Can't resolve '../components/AnimatedBackground' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 10:0-54
+Module not found: Error: Can't resolve '../components/AnimatedForm' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 11:0-56
+Module not found: Error: Can't resolve '../components/AnimatedInput' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 12:0-58
+Module not found: Error: Can't resolve '../components/AnimatedButton' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 13:0-66
+Module not found: Error: Can't resolve '../components/AnimatedBackground' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./node_modules/react-dom/client.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: ENOENT: no such file or directory, open '/root/webpython+react/frontend/node_modules/react-dom/client.js'
+
+ERROR in ./node_modules/react-dom/index.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: ENOENT: no such file or directory, open '/root/webpython+react/frontend/node_modules/react-dom/index.js'
+
+ERROR in ./node_modules/goober/dist/goober.modern.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: ENOENT: no such file or directory, open '/root/webpython+react/frontend/node_modules/goober/dist/goober.modern.js'
+
+ERROR in ./node_modules/lucide-react/dist/esm/lucide-react.mjs
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: ENOENT: no such file or directory, open '/root/webpython+react/frontend/node_modules/lucide-react/dist/esm/lucide-react.mjs'
+
+ERROR in Module not found: Error: Can't resolve '/root/webpython+react/frontend/node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=none&overlay=%7B%22errors%22%3Atrue%2C%22warnings%22%3Afalse%7D&reconnect=10&hot=true&live-reload=true' in '/root/webpython+react/frontend'
+
+webpack compiled with 13 errors and 1 warning
+Failed to compile.
+
+Module not found: Error: Can't resolve '../components/AnimatedForm' in '/root/webpython+react/frontend/src/pages'
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+ERROR in ./src/pages/Login.js 10:0-54
+Module not found: Error: Can't resolve '../components/AnimatedForm' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Login.js 11:0-56
+Module not found: Error: Can't resolve '../components/AnimatedInput' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Login.js 12:0-58
+Module not found: Error: Can't resolve '../components/AnimatedButton' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Login.js 13:0-66
+Module not found: Error: Can't resolve '../components/AnimatedBackground' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 10:0-54
+Module not found: Error: Can't resolve '../components/AnimatedForm' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 11:0-56
+Module not found: Error: Can't resolve '../components/AnimatedInput' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 12:0-58
+Module not found: Error: Can't resolve '../components/AnimatedButton' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./src/pages/Register.js 13:0-66
+Module not found: Error: Can't resolve '../components/AnimatedBackground' in '/root/webpython+react/frontend/src/pages'
+
+ERROR in ./node_modules/react-dom/client.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: ENOENT: no such file or directory, open '/root/webpython+react/frontend/node_modules/react-dom/client.js'
+
+ERROR in ./node_modules/react-dom/index.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: ENOENT: no such file or directory, open '/root/webpython+react/frontend/node_modules/react-dom/index.js'
+
+ERROR in ./node_modules/goober/dist/goober.modern.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: ENOENT: no such file or directory, open '/root/webpython+react/frontend/node_modules/goober/dist/goober.modern.js'
+
+ERROR in ./node_modules/lucide-react/dist/esm/lucide-react.mjs
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: ENOENT: no such file or directory, open '/root/webpython+react/frontend/node_modules/lucide-react/dist/esm/lucide-react.mjs'
+
+ERROR in Module not found: Error: Can't resolve '/root/webpython+react/frontend/node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=none&overlay=%7B%22errors%22%3Atrue%2C%22warnings%22%3Afalse%7D&reconnect=10&hot=true&live-reload=true' in '/root/webpython+react/frontend'
+
+webpack compiled with 13 errors and 1 warning
+Failed to compile.
+
+Module not found: Error: Can't resolve '/root/webpython+react/frontend/node_modules/babel-loader/lib/index.js' in '/root/webpython+react/frontend'
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+ERROR in main
+Module not found: Error: Can't resolve '/root/webpython+react/frontend/node_modules/babel-loader/lib/index.js' in '/root/webpython+react/frontend'
+
+ERROR in Module not found: Error: Can't resolve '/root/webpython+react/frontend/node_modules/babel-loader/lib/index.js' in '/root/webpython+react/frontend'
+
+ERROR in Module not found: Error: Can't resolve '/root/webpython+react/frontend/node_modules/babel-loader/lib/index.js' in '/root/webpython+react/frontend'
+
+ERROR in Module not found: Error: Can't resolve '/root/webpython+react/frontend/node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=none&overlay=%7B%22errors%22%3Atrue%2C%22warnings%22%3Afalse%7D&reconnect=10&hot=true&live-reload=true' in '/root/webpython+react/frontend'
+
+webpack compiled with 4 errors and 1 warning
+Failed to compile.
+
+Module not found: Error: Can't resolve '/root/webpython+react/frontend/node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js' in '/root/webpython+react/frontend'
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+ERROR in Module not found: Error: Can't resolve '/root/webpython+react/frontend/node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js' in '/root/webpython+react/frontend'
+
+ERROR in main
+Module not found: Error: Can't resolve '/root/webpython+react/frontend/node_modules/babel-loader/lib/index.js' in '/root/webpython+react/frontend'
+
+ERROR in Module not found: Error: Can't resolve '/root/webpython+react/frontend/node_modules/babel-loader/lib/index.js' in '/root/webpython+react/frontend'
+
+ERROR in Module not found: Error: Can't resolve '/root/webpython+react/frontend/node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=none&overlay=%7B%22errors%22%3Atrue%2C%22warnings%22%3Afalse%7D&reconnect=10&hot=true&live-reload=true' in '/root/webpython+react/frontend'
+
+webpack compiled with 4 errors and 1 warning
+Failed to compile.
+
+Module not found: Error: Can't resolve '/root/webpython+react/frontend/node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js' in '/root/webpython+react/frontend'
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+ERROR in Module not found: Error: Can't resolve '/root/webpython+react/frontend/node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js' in '/root/webpython+react/frontend'
+
+ERROR in main
+Module not found: Error: Can't resolve '/root/webpython+react/frontend/node_modules/babel-loader/lib/index.js' in '/root/webpython+react/frontend'
+
+ERROR in Module not found: Error: Can't resolve '/root/webpython+react/frontend/node_modules/babel-loader/lib/index.js' in '/root/webpython+react/frontend'
+
+ERROR in Module not found: Error: Can't resolve '/root/webpython+react/frontend/node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=none&overlay=%7B%22errors%22%3Atrue%2C%22warnings%22%3Afalse%7D&reconnect=10&hot=true&live-reload=true' in '/root/webpython+react/frontend'
+
+ERROR in Error: Child compilation failed:
+Module not found: Error: Can't resolve '/root/webpython+react/frontend/node_modules/html-webpack-plugin/lib/loader.js' in '/root/webpython+react/frontend'
+ModuleNotFoundError: Module not found: Error: Can't resolve '/root/webpython+react/frontend/node_modules/html-webpack-plugin/lib/loader.js' in '/root/webpython+react/frontend'
+    at /root/webpython+react/frontend/node_modules/webpack/lib/Compilation.js:2265:28
+    at /root/webpython+react/frontend/node_modules/webpack/lib/NormalModuleFactory.js:949:13
+    at eval (eval at create (/root/webpython+react/frontend/node_modules/tapable/lib/HookCodeFactory.js:31:10), <anonymous>:10:1)
+    at /root/webpython+react/frontend/node_modules/webpack/lib/NormalModuleFactory.js:347:22
+    at eval (eval at create (/root/webpython+react/frontend/node_modules/tapable/lib/HookCodeFactory.js:31:10), <anonymous>:9:1)
+    at /root/webpython+react/frontend/node_modules/webpack/lib/NormalModuleFactory.js:532:22
+    at /root/webpython+react/frontend/node_modules/webpack/lib/NormalModuleFactory.js:167:10
+    at /root/webpython+react/frontend/node_modules/webpack/lib/NormalModuleFactory.js:769:23
+    at /root/webpython+react/frontend/node_modules/neo-async/async.js:2830:7
+    at done (/root/webpython+react/frontend/node_modules/neo-async/async.js:2925:13)
+    at /root/webpython+react/frontend/node_modules/webpack/lib/NormalModuleFactory.js:1218:23
+    at finishWithoutResolve (/root/webpython+react/frontend/node_modules/enhanced-resolve/lib/Resolver.js:568:11)
+    at /root/webpython+react/frontend/node_modules/enhanced-resolve/lib/Resolver.js:657:14
+    at /root/webpython+react/frontend/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/root/webpython+react/frontend/node_modules/tapable/lib/HookCodeFactory.js:31:10), <anonymous>:16:1)
+    at /root/webpython+react/frontend/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/root/webpython+react/frontend/node_modules/tapable/lib/HookCodeFactory.js:31:10), <anonymous>:27:1)
+    at /root/webpython+react/frontend/node_modules/enhanced-resolve/lib/DescriptionFilePlugin.js:89:43
+    at /root/webpython+react/frontend/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/root/webpython+react/frontend/node_modules/tapable/lib/HookCodeFactory.js:31:10), <anonymous>:15:1)
+    at /root/webpython+react/frontend/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/root/webpython+react/frontend/node_modules/tapable/lib/HookCodeFactory.js:31:10), <anonymous>:15:1)
+    at /root/webpython+react/frontend/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/root/webpython+react/frontend/node_modules/tapable/lib/HookCodeFactory.js:31:10), <anonymous>:16:1)
+    at /root/webpython+react/frontend/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/root/webpython+react/frontend/node_modules/tapable/lib/HookCodeFactory.js:31:10), <anonymous>:27:1)
+    at /root/webpython+react/frontend/node_modules/enhanced-resolve/lib/DescriptionFilePlugin.js:89:43
+    at /root/webpython+react/frontend/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/root/webpython+react/frontend/node_modules/tapable/lib/HookCodeFactory.js:31:10), <anonymous>:16:1)
+    at /root/webpython+react/frontend/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/root/webpython+react/frontend/node_modules/tapable/lib/HookCodeFactory.js:31:10), <anonymous>:15:1)
+    at /root/webpython+react/frontend/node_modules/enhanced-resolve/lib/DirectoryExistsPlugin.js:43:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+
+1 ERROR in child compilations (Use 'stats.children: true' resp. '--stats-children' for more details)
+webpack compiled with 6 errors and 1 warning
+Failed to compile.
+
+Module not found: Error: Can't resolve '/root/webpython+react/frontend/node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js' in '/root/webpython+react/frontend'
+LOG from webpack.FileSystemInfo
+<w> Managed item /root/webpython+react/frontend/node_modules/webpack isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
++ 12 hidden lines
+
+WARNING in [eslint] 
+src/pages/AdminPanel.js
+  Line 21:10:  'gateways' is assigned a value but never used  no-unused-vars
+
+src/pages/AmazonDashboard.js
+  Line 21:11:  'user' is assigned a value but never used  no-unused-vars
+
+ERROR in Module not found: Error: Can't resolve '/root/webpython+react/frontend/node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js' in '/root/webpython+react/frontend'
+
+ERROR in main
+Module not found: Error: Can't resolve '/root/webpython+react/frontend/node_modules/babel-loader/lib/index.js' in '/root/webpython+react/frontend'
+
+ERROR in Module not found: Error: Can't resolve '/root/webpython+react/frontend/node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=3000&pathname=%2Fws&logging=none&overlay=%7B%22errors%22%3Atrue%2C%22warnings%22%3Afalse%7D&reconnect=10&hot=true&live-reload=true' in '/root/webpython+react/frontend'
+
+ERROR in Module not found: Error: Can't resolve '/root/webpython+react/frontend/node_modules/webpack/hot/dev-server.js' in '/root/webpython+react/frontend'
+
+ERROR in Error: Child compilation failed:
+Module not found: Error: Can't resolve '/root/webpython+react/frontend/node_modules/html-webpack-plugin/lib/loader.js' in '/root/webpython+react/frontend'
+ModuleNotFoundError: Module not found: Error: Can't resolve '/root/webpython+react/frontend/node_modules/html-webpack-plugin/lib/loader.js' in '/root/webpython+react/frontend'
+    at /root/webpython+react/frontend/node_modules/webpack/lib/Compilation.js:2265:28
+    at /root/webpython+react/frontend/node_modules/webpack/lib/NormalModuleFactory.js:949:13
+    at eval (eval at create (/root/webpython+react/frontend/node_modules/tapable/lib/HookCodeFactory.js:31:10), <anonymous>:10:1)
+    at /root/webpython+react/frontend/node_modules/webpack/lib/NormalModuleFactory.js:347:22
+    at eval (eval at create (/root/webpython+react/frontend/node_modules/tapable/lib/HookCodeFactory.js:31:10), <anonymous>:9:1)
+    at /root/webpython+react/frontend/node_modules/webpack/lib/NormalModuleFactory.js:532:22
+    at /root/webpython+react/frontend/node_modules/webpack/lib/NormalModuleFactory.js:167:10
+    at /root/webpython+react/frontend/node_modules/webpack/lib/NormalModuleFactory.js:769:23
+    at /root/webpython+react/frontend/node_modules/neo-async/async.js:2830:7
+    at done (/root/webpython+react/frontend/node_modules/neo-async/async.js:2925:13)
+    at /root/webpython+react/frontend/node_modules/webpack/lib/NormalModuleFactory.js:1218:23
+    at finishWithoutResolve (/root/webpython+react/frontend/node_modules/enhanced-resolve/lib/Resolver.js:568:11)
+    at /root/webpython+react/frontend/node_modules/enhanced-resolve/lib/Resolver.js:657:14
+    at /root/webpython+react/frontend/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/root/webpython+react/frontend/node_modules/tapable/lib/HookCodeFactory.js:31:10), <anonymous>:16:1)
+    at /root/webpython+react/frontend/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/root/webpython+react/frontend/node_modules/tapable/lib/HookCodeFactory.js:31:10), <anonymous>:27:1)
+    at /root/webpython+react/frontend/node_modules/enhanced-resolve/lib/DescriptionFilePlugin.js:89:43
+    at /root/webpython+react/frontend/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/root/webpython+react/frontend/node_modules/tapable/lib/HookCodeFactory.js:31:10), <anonymous>:15:1)
+    at /root/webpython+react/frontend/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/root/webpython+react/frontend/node_modules/tapable/lib/HookCodeFactory.js:31:10), <anonymous>:15:1)
+    at /root/webpython+react/frontend/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/root/webpython+react/frontend/node_modules/tapable/lib/HookCodeFactory.js:31:10), <anonymous>:16:1)
+    at /root/webpython+react/frontend/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/root/webpython+react/frontend/node_modules/tapable/lib/HookCodeFactory.js:31:10), <anonymous>:27:1)
+    at /root/webpython+react/frontend/node_modules/enhanced-resolve/lib/DescriptionFilePlugin.js:89:43
+    at /root/webpython+react/frontend/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/root/webpython+react/frontend/node_modules/tapable/lib/HookCodeFactory.js:31:10), <anonymous>:16:1)
+    at /root/webpython+react/frontend/node_modules/enhanced-resolve/lib/Resolver.js:718:5
+    at eval (eval at create (/root/webpython+react/frontend/node_modules/tapable/lib/HookCodeFactory.js:31:10), <anonymous>:15:1)
+    at /root/webpython+react/frontend/node_modules/enhanced-resolve/lib/DirectoryExistsPlugin.js:43:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+
+webpack compiled with 5 errors and 1 warning
+/root/webpython+react/frontend/node_modules/react-scripts/scripts/start.js:19
+  throw err;
+  ^
+
+[Error: ENOENT: no such file or directory, stat '/root/webpython+react/frontend/node_modules/.cache/default-development/3.pack'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/root/webpython+react/frontend/node_modules/.cache/default-development/3.pack'
+}
+
+Node.js v18.20.8
